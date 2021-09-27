@@ -289,9 +289,9 @@ img {
   -webkit-transform: skewX(-25deg);
   transform: skewX(-25deg);
 }
-.box:hover::before {
-  -webkit-animation: shine 0.75s;
-  animation: shine 0.75s;
+.box_hot:hover .box::before {
+  -webkit-animation: shine 1s;
+  animation: shine 1s;
 }
 @-webkit-keyframes shine {
   100% {
@@ -328,15 +328,16 @@ img {
   font-weight: 500;
   text-decoration: none;
 }
-.box_hot .title .text:hover {
+.box_hot .title:hover {
   color: #f9dfd9;
+  background: #de3d0f;
   transition: 0.3s all 0s;
 }
 p {
   margin-bottom: 0;
 }
 .box_hot .box .price {
-  color: #e2dede;
+  color: #adadad;
   font-weight: 400;
   font-size: 1rem;
 }
