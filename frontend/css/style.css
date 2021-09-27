@@ -226,7 +226,7 @@ img {
 .btn_buy:focus,
 .btn_buy:hover {
   color: #fff;
-  background-color: #de3d0f;
+  background-color: #d53102;
   border-color: #d23a0e;
   transition: all 0.3s;
 }
