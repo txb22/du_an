@@ -104,13 +104,11 @@
     flex-wrap: nowrap;
   }
 }
-/* @media (max-width: 480px) {
-  .section-4 .row {
-    overflow-x: auto;
-    overflow-y: hidden;
-    flex-wrap: nowrap;
+@media (max-width: 480px) {
+  .section_title {
+    margin-bottom: 1rem;
   }
-} */
+}
 @media (min-width: 1024px) and (max-width: 1366px) {
   .box_hot .title .text,
   .text-uppercase {
